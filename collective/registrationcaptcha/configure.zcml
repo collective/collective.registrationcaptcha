@@ -25,5 +25,12 @@
       description="collective.registrationcaptcha registration."
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       provides="Products.GenericSetup.interfaces.EXTENSION"/>
+  <genericsetup:registerProfile
+      name="uninstall"
+      directory="profiles/uninstall"
+      title="collective.registrationcaptcha uninstallation"
+      description="uninstalls collective.registrationcaptcha"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      provides="Products.GenericSetup.interfaces.EXTENSION"/>
 
 </configure>

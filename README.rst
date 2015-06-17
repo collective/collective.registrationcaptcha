@@ -14,3 +14,10 @@ time of this writing) or ``collective.z3cform.norobots``.
 Then you have to configure plone.app.discussion to use a captcha widget. You
 don't need to keep the discussion activated, if you don't want them to be
 active on your site.
+
+
+Installation on plone 4.3
+-------------------------
+
+You will need to pin the version of plone.app.users to 2.1.0.
+plone.app.users 2.2.x is Plone 5 only.
